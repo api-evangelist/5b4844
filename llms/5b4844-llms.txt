@@ -1,0 +1,45 @@
+# 5B Australia
+
+> 5B is an Australian cleantech manufacturer of prefabricated, pre-wired ground-mount solar technology
+> for utility-scale, mining, industrial and remote-community power projects. Its flagship product, the
+> 5B Maverick, is an accordion-folded east-west solar array assembled in a factory and unfolded on site
+> in under an hour. 5B publishes no public API, no developer portal and no machine-readable API
+> contract; this file describes the company's public web surface only.
+
+## About
+- [Home](https://5b.co/): Company home page.
+- [About us](https://5b.co/company/about-us): Founded 2013 in Sydney by Chris McGrath and Eden Tehan; manufacturing in Adelaide, South Australia.
+- [Leadership team](https://5b.co/company/leadership-team): Executive team.
+- [Governance](https://5b.co/company/governance): Corporate governance.
+- [Careers at 5B](https://5b.co/careers-at-5b): Open roles.
+
+## Products
+- [5B Maverick](https://5b.co/en/5b-maverick): Prefabricated east-west solar array; deployment, yield density and terrain specifications.
+- [Manufacturing](https://5b.co/discover/manufacturing): Adelaide production facility and global assembly model.
+- [Mining](https://5b.co/mining): Solar for mining operations.
+- [Data centres](https://5b.co/data-centres-5b): Solar for data-centre load.
+- [Projects](https://5b.co/projects): Deployed project list across Australia, the United States, Panama, Puerto Rico, El Salvador and Chile.
+- [FAQs](https://5b.co/solutions/faqs): Hardware, deployment, warranty and inverter-compatibility questions.
+
+## News
+- [News & insights](https://5b.co/discover/news): Company news index.
+- [News RSS](https://5b.co/discover/news/rss.xml): RSS feed for the news index.
+
+## Legal
+- [Terms and conditions](https://5b.co/terms-and-conditions)
+- [Purchase / service terms and conditions](https://5b.co/purchase-service-terms-and-conditions)
+- [Privacy policy](https://5b.co/privacy-policy)
+- [IP notice](https://5b.co/ip-notice)
+- [Supplier code of conduct](https://5b.co/supplier-code-of-conduct)
+
+## Contact
+- [Contact us](https://5b.co/contact)
+- [General enquiry](https://5b.co/contact/general-enquiry)
+
+## APIs
+No public API. As of 2026-09-05 no OpenAPI, AsyncAPI, GraphQL SDL, MCP server, A2A agent card or
+/.well-known discovery document is served on any host 5B controls (5b.co, www.5b.co, 5b.com.au);
+see well-known/5b4844-well-known.yml for the probe record.
+
+## Profile
+- [API Evangelist profile](https://raw.githubusercontent.com/api-evangelist/5b4844/refs/heads/main/apis.yml): This APIs.json record.

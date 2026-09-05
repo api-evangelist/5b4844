@@ -64,5 +64,26 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-5B Australia is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/5b4844
+5B is an Australian cleantech manufacturer that builds prefabricated, pre-wired ground-mount solar
+technology for utility-scale, mining, industrial and remote-community power projects. Founded in Sydney
+in 2013 by solar engineers Chris McGrath and Eden Tehan, the company designs and manufactures the 5B
+Maverick, an accordion-folded east-west solar array that is assembled in a factory and unfolded on site
+in under an hour. 5B manufactures in Adelaide, South Australia, and has deployed projects across
+Australia, the United States, Panama, Puerto Rico, El Salvador and Chile.
+
+- Website: https://5b.co/
+- Product: https://5b.co/en/5b-maverick
+- News: https://5b.co/discover/news
+
+## API surface
+
+**None found.** As of 2026-09-05, 5B publishes no developer portal, no API reference, and no
+machine-readable contract. Contract discovery was run against `5b.co`, `www.5b.co` and `5b.com.au`:
+`/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/llms.txt`,
+`/.well-known/agent-card.json`, `/.well-known/agent.json`, `/.well-known/security.txt`,
+`/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`,
+`/.well-known/oauth-protected-resource`, `/.well-known/api-catalog`, `/.well-known/ai-plugin.json`,
+`/.well-known/apis.json`, `/apis.json` and `/apis.yml` all returned 404. The company's 67-URL sitemap
+contains no developer, docs or API page. Probe record: `well-known/5b4844-well-known.yml`.
+
+If 5B publishes an API, open an issue here and we will profile it.

@@ -1,16 +1,33 @@
 aid: 5b4844
 name: 5B Australia
-description: '5B Australia is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: '5B is an Australian cleantech manufacturer that builds prefabricated, pre-wired ground-mount
+  solar technology for utility-scale, mining, industrial and remote-community power projects. Founded
+  in Sydney in 2013 by solar engineers Chris McGrath and Eden Tehan, the company designs and manufactures
+  the 5B Maverick, an accordion-folded east-west solar array that is assembled in a factory and unfolded
+  on site in under an hour rather than built panel by panel, cutting on-site labour by roughly 80% and
+  roughly doubling energy yield per hectare compared with single-axis trackers. 5B manufactures in Adelaide,
+  South Australia, with a global assembly model, and has deployed projects across Australia, the United
+  States, Panama, Puerto Rico, El Salvador and Chile. 5B is a hardware and deployment-services company:
+  as of this profile it publishes no developer portal, no public API, and no machine-readable API contract
+  on any host it controls.'
 url: https://raw.githubusercontent.com/api-evangelist/5b4844/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: 'enriched: no public API surface found'
 specificationVersion: '0.20'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
+- Solar
+- Renewable Energy
+- Cleantech
+- Energy
+- Manufacturing
+- Hardware
+- Utility Scale Solar
+- Mining
+- Australia
 - Company
 apis: []
 maintainers:
@@ -19,5 +36,47 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/5b4844-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/5b4844
+  url: https://5b.co/
+- type: Support
+  url: https://5b.co/contact
+- type: Blog
+  url: https://5b.co/discover/news
+- type: BlogRSS
+  url: https://5b.co/discover/news/rss.xml
+- type: TermsOfService
+  url: https://5b.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://5b.co/privacy-policy
+- type: Careers
+  url: https://5b.co/careers-at-5b
+- type: FAQ
+  url: https://5b.co/solutions/faqs
+- type: About
+  url: https://5b.co/company/about-us
+- type: LLMsTxt
+  url: llms/5b4844-llms.txt
+image: https://5b.co/hubfs/5B-Logo-Symbol_Orange-withbleed.png
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: 5B manufactures physical solar hardware (the prefabricated Maverick array) and sells it through
+    project sales — its 67-page HubSpot marketing site has no developer, docs or API section, and every
+    OpenAPI, MCP, agent-card and /.well-known probe against 5b.co, www.5b.co and 5b.com.au returned 404.
+  evidence:
+  - url: https://5b.co/openapi.json
+    status: 404
+  - url: https://5b.co/.well-known/agent-card.json
+    status: 404
+  - url: https://5b.co/llms.txt
+    status: 404
+  - url: https://5b.co/sitemap.xml
+    status: 200
+  checked: '2026-09-05'
