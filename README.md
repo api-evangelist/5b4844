@@ -64,26 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-5B is an Australian cleantech manufacturer that builds prefabricated, pre-wired ground-mount solar
-technology for utility-scale, mining, industrial and remote-community power projects. Founded in Sydney
-in 2013 by solar engineers Chris McGrath and Eden Tehan, the company designs and manufactures the 5B
-Maverick, an accordion-folded east-west solar array that is assembled in a factory and unfolded on site
-in under an hour. 5B manufactures in Adelaide, South Australia, and has deployed projects across
-Australia, the United States, Panama, Puerto Rico, El Salvador and Chile.
+5B is an Australian cleantech manufacturer that builds prefabricated, pre-wired ground-mount solar technology for utility-scale, mining, industrial and remote-community power projects. Founded in Sydney in 2013 by solar engineers Chris McGrath and Eden Tehan, the company designs and manufactures the 5B Maverick, an accordion-folded east-west solar array that is assembled in a factory and unfolded on site in under an hour rather than built panel by panel, cutting on-site labour by roughly 80% and roughly doubling energy yield per hectare compared with single-axis trackers. 5B manufactures in Adelaide, South Australia, with a global assembly model, and has deployed projects across Australia, the United States, Panama, Puerto Rico, El Salvador and Chile. 5B is a hardware and deployment-services company: as of this profile it publishes no developer portal, no public API, and no machine-readable API contract on any host it controls.
 
-- Website: https://5b.co/
-- Product: https://5b.co/en/5b-maverick
-- News: https://5b.co/discover/news
+**Areas:** Solar · Renewable Energy · Cleantech · Energy · Manufacturing · Hardware · Utility-Scale Solar · Mining · Australia · Company
 
-## API surface
+## 5B Australia on APIs.io
 
-**None found.** As of 2026-09-05, 5B publishes no developer portal, no API reference, and no
-machine-readable contract. Contract discovery was run against `5b.co`, `www.5b.co` and `5b.com.au`:
-`/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/llms.txt`,
-`/.well-known/agent-card.json`, `/.well-known/agent.json`, `/.well-known/security.txt`,
-`/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`,
-`/.well-known/oauth-protected-resource`, `/.well-known/api-catalog`, `/.well-known/ai-plugin.json`,
-`/.well-known/apis.json`, `/apis.json` and `/apis.yml` all returned 404. The company's 67-URL sitemap
-contains no developer, docs or API page. Probe record: `well-known/5b4844-well-known.yml`.
+Everything profiled for 5B Australia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/5b4844/](https://apis.io/providers/5b4844/)** — or go straight to one of the APIs or properties below.
 
-If 5B publishes an API, open an issue here and we will profile it.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [5B4844 Domain Security](https://apis.io/security/5b4844/5b4844-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://5b.co/)
+- [Support](https://5b.co/contact)
+- [Blog](https://5b.co/discover/news)
+- [Terms of service](https://5b.co/terms-and-conditions)
+- [Privacy policy](https://5b.co/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/5b4844/](https://apis.io/providers/5b4844/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 5B Australia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/5b4844/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
